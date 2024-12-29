@@ -38,15 +38,15 @@ img {
 	pointer-events: none;
 }
 
-.color-to-black {
-	transition: color 0.3s linear;
+.to-accent-color {
+	transition: color 0.3s;
 }
 
-.border-anim-to-black:hover .color-to-black {
+.to-accent-color:hover {
 	color: var(--accent-color);
 }
 
-.border-anim-to-black::after {
+.border-anim-to-accent-color::after {
 	content: "";
 	position: absolute;
 	left: 0;
@@ -59,6 +59,6 @@ img {
 	transition: transform 0.3s;
 }
 
-.border-anim-to-black:hover::after {
+.border-anim-to-accent-color:hover::after {
 	transform: scaleX(100%);
 }

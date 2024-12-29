@@ -22,17 +22,17 @@ export default function Home() {
 					height={38}
 					priority
 				/>
-				<div className="list-inside list-decimal self-center text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
+				<div className="to-accent-color list-inside list-decimal self-center text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
 					ひっそりと活動している無名MuteTuber「Ellen」の公式サイトです。
 				</div>
 
-				<div className="flex gap-4 items-center self-center flex-col sm:flex-row">
+				<div className="to-accent-color flex gap-4 items-center self-center flex-col sm:flex-row">
 					<a
-						className="relative border-b px-1.5 border-anim-to-black"
+						className="relative border-b px-1.5 border-anim-to-accent-color"
 						// TODO: Insert page url.
 						href=""
 					>
-						<div className="color-to-black">About Me</div>
+						About Me
 					</a>
 				</div>
 			</main>
